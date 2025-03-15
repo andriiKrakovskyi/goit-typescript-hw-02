@@ -1,0 +1,8 @@
+@media only screen and (min-width: 768px) {
+  .imageCard_img {
+    width: 345px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+}

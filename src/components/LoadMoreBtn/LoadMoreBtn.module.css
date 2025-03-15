@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) {
+  .loadMoreBtn_section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: blue;
+  }
+
+  .loadMoreBtn_wrapper {
+    text-align: center;
+  }
+
+  .loadMoreBtn_button {
+    background-color: rgb(228, 228, 228);
+    border-radius: 3px;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+  }
+}

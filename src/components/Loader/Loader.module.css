@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px) {
+  .loader_section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .loader_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
