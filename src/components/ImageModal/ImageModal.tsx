@@ -1,11 +1,10 @@
 import s from './ImageModal.module.css';
-
 import { BsInstagram } from 'react-icons/bs';
 import { AiOutlineLike } from 'react-icons/ai';
 import { BsVectorPen } from 'react-icons/bs';
-
 import Modal from 'react-modal';
 Modal.setAppElement('#root');
+import { Photo } from '../../App/App.types';
 
 const customStyles = {
   content: {
@@ -24,7 +23,17 @@ const customStyles = {
   },
 };
 
-export default function ImageModal({ modalIsOpen, closeModal, modalData }) {
+type ImageModalProp = {
+  closeModal(): void;
+  modalIsOpen: boolean;
+  modalData: Photo | null;
+};
+
+const ImageModal: React.FC<ImageModalProp> = ({
+  closeModal,
+  modalIsOpen,
+  modalData,
+}) => {
   if (!modalData) return null;
   return (
     <Modal
@@ -79,4 +88,6 @@ export default function ImageModal({ modalIsOpen, closeModal, modalData }) {
       )}
     </Modal>
   );
-}
+};
+
+export default ImageModal;

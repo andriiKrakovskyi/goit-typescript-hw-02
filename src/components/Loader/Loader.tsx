@@ -1,5 +1,5 @@
 import s from './Loader.module.css';
-import Container from '../Container/Container.jsx';
+import Container from '../Container/Container.js';
 import { ColorRing } from 'react-loader-spinner';
 
 export default function Loader() {

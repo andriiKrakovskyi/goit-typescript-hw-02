@@ -1,17 +1,15 @@
-@media only screen and (min-width: 768px) {
-  .imageGallery_container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .imageGallery_section {
-    padding-top: 10px;
-    padding-bottom: 5px;
-  }
-  .imageGallery_list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
+.imageGallery_container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.imageGallery_section {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.imageGallery_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }

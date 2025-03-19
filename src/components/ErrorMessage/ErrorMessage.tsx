@@ -1,5 +1,5 @@
 import s from './ErrorMessage.module.css';
-import Container from '../Container/Container.jsx';
+import Container from '../Container/Container.js';
 
 export default function ErrorMessage() {
   return (
